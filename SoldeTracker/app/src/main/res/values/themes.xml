@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SoldeTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="Theme.SoldeTracker" parent="Base.Theme.SoldeTracker" >
+        <!-- Couleur principale de l'application -->
+        <item name="colorPrimary">@color/green</item>
+        <!-- Couleur de la barre de statut (barre de Wi-Fi, données, batterie) -->
+        <item name="colorPrimaryDark">@color/green</item>
+        <!-- Couleur d'accentuation (boutons, sélections, etc.) -->
+        <item name="colorAccent">@color/green</item>
+
+
+    </style>
+</resources>
